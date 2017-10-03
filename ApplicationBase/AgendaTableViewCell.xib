@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12120" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="89" id="XQV-3g-TMR" customClass="AgendaTableViewCell" customModule="ApplicationBase" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="403" height="89"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="XQV-3g-TMR" id="CUb-nr-OZE">
+                <rect key="frame" x="0.0" y="0.0" width="403" height="88.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="HxF-rC-Nzd">
+                        <rect key="frame" x="0.0" y="2" width="12" height="84.5"/>
+                        <color key="backgroundColor" red="0.96078431369999995" green="0.65098039220000004" blue="0.13725490200000001" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="12" id="zZA-nE-AS9"/>
+                        </constraints>
+                    </view>
+                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="Q2a-24-oe2">
+                        <rect key="frame" x="20" y="17" width="367" height="54.5"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" text="12:00 - Retirar Camiseta" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iQO-MP-SPJ">
+                                <rect key="frame" x="0.0" y="0.0" width="367" height="13.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="751" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KoS-Xd-3tS">
+                                <rect key="frame" x="0.0" y="13.5" width="367" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Pendente" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jHL-24-CNd">
+                                <rect key="frame" x="0.0" y="34" width="367" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                    </stackView>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstItem="HxF-rC-Nzd" firstAttribute="top" secondItem="CUb-nr-OZE" secondAttribute="top" constant="2" id="17P-VD-HHd"/>
+                    <constraint firstItem="Q2a-24-oe2" firstAttribute="leading" secondItem="HxF-rC-Nzd" secondAttribute="trailing" constant="8" id="EJJ-O6-FAP"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="Q2a-24-oe2" secondAttribute="trailing" constant="8" id="GPE-zq-Jio"/>
+                    <constraint firstItem="HxF-rC-Nzd" firstAttribute="leading" secondItem="CUb-nr-OZE" secondAttribute="leading" id="StS-Zu-UIh"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="Q2a-24-oe2" secondAttribute="bottom" constant="9" id="ZZc-yV-prU"/>
+                    <constraint firstItem="Q2a-24-oe2" firstAttribute="top" secondItem="CUb-nr-OZE" secondAttribute="topMargin" constant="9" id="aBG-gK-dBS"/>
+                    <constraint firstAttribute="bottom" secondItem="HxF-rC-Nzd" secondAttribute="bottom" constant="2" id="jG1-GE-7tB"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="bar" destination="HxF-rC-Nzd" id="e3T-XI-xM5"/>
+                <outlet property="local" destination="KoS-Xd-3tS" id="Z4E-5X-hLW"/>
+                <outlet property="status" destination="jHL-24-CNd" id="yyr-qh-cHA"/>
+                <outlet property="title" destination="iQO-MP-SPJ" id="ZVu-FZ-0xp"/>
+            </connections>
+            <point key="canvasLocation" x="30.5" y="28.5"/>
+        </tableViewCell>
+    </objects>
+</document>
