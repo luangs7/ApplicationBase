@@ -1,21 +1,24 @@
 //
-//  HomeViewController.swift
+//  BarViewController.swift
 //  ApplicationBase
 //
-//  Created by Luan Silva on 03/10/17.
+//  Created by Luan Silva on 06/10/17.
 //  Copyright © 2017 Squarebits. All rights reserved.
 //
 
 import UIKit
 
-class HomeViewController: UITabBarController {
+class BarViewController: UITabBarController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+
+        // Do any additional setup after loading the view.
+    }
+
+    override func didReceiveMemoryWarning() {
+        super.didReceiveMemoryWarning()
         
-        UITabBar.appearance().tintColor = UIColor(red:1.00, green:1.00, blue:1.00, alpha:1.0)
-        
-        UITabBar.appearance().backgroundColor = UIColor(red:0.00, green:0.00, blue:0.00, alpha:1.0)
         UITabBarItem.appearance().setTitleTextAttributes([NSForegroundColorAttributeName: hexStringToUIColor(hex: "#ffffff")], for:.selected)
         UITabBarItem.appearance().setTitleTextAttributes([NSForegroundColorAttributeName: hexStringToUIColor(hex: "#c2c2c2")], for:.normal)
         UITabBarItem.appearance().setTitleTextAttributes([NSFontAttributeName:UIFont(name: "Verdana", size: 10)!], for:.selected)
@@ -44,11 +47,6 @@ class HomeViewController: UITabBarController {
             blue: CGFloat(rgbValue & 0x0000FF) / 255.0,
             alpha: CGFloat(1.0)
         )
-    }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
     }
     
 

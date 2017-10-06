@@ -17,6 +17,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         let result = UserDefaults.standard.value(forKey: "authSharedInstance")
         let userresult = UserDefaults.standard.value(forKey: "userSharedInstance")
+       
+        
+        if userresult != nil {
         
         if let u = result {
             let us = u as! [String:Any]
@@ -66,6 +69,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             self.window?.makeKeyAndVisible()
         
             
+            }
         }
         
         return true

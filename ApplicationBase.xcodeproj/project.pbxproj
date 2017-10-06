@@ -19,6 +19,9 @@
 		0FB00D0E1F82C9E800CC7426 /* SF-UI-Text-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0FB00D021F82C9E800CC7426 /* SF-UI-Text-Regular.otf */; };
 		0FB00D0F1F82C9E800CC7426 /* SF-UI-Text-Semibold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0FB00D031F82C9E800CC7426 /* SF-UI-Text-Semibold.otf */; };
 		0FB00D101F82C9E800CC7426 /* SwiftMaskTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FB00D051F82C9E800CC7426 /* SwiftMaskTextField.swift */; };
+		0FB1692C1F87F5E000C199AC /* AlertasTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0FB1692B1F87F5E000C199AC /* AlertasTableViewCell.xib */; };
+		0FB1692E1F87F6A600C199AC /* AlertasTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FB1692D1F87F6A600C199AC /* AlertasTableViewCell.swift */; };
+		0FB169301F87FC9100C199AC /* BarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FB1692F1F87FC9100C199AC /* BarViewController.swift */; };
 		0FCFD9D41F82726D00FF27F1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FCFD9D31F82726D00FF27F1 /* AppDelegate.swift */; };
 		0FCFD9D61F82726D00FF27F1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FCFD9D51F82726D00FF27F1 /* ViewController.swift */; };
 		0FCFD9D91F82726D00FF27F1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0FCFD9D71F82726D00FF27F1 /* Main.storyboard */; };
@@ -27,8 +30,6 @@
 		0FCFD9EC1F82766E00FF27F1 /* AgendaTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FCFD9EB1F82766E00FF27F1 /* AgendaTableViewCell.swift */; };
 		0FCFD9F01F82769700FF27F1 /* AgendaTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0FCFD9EF1F82769700FF27F1 /* AgendaTableViewCell.xib */; };
 		0FCFD9F31F8278F700FF27F1 /* AgendaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FCFD9F21F8278F700FF27F1 /* AgendaViewController.swift */; };
-		0FCFD9F71F82808700FF27F1 /* AlertaTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FCFD9F61F82808700FF27F1 /* AlertaTableViewCell.swift */; };
-		0FCFD9F91F82809400FF27F1 /* AlertaTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0FCFD9F81F82809400FF27F1 /* AlertaTableViewCell.xib */; };
 		0FCFD9FB1F82814A00FF27F1 /* AlertaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FCFD9FA1F82814A00FF27F1 /* AlertaViewController.swift */; };
 		0FCFD9FD1F82823100FF27F1 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FCFD9FC1F82823100FF27F1 /* LoginViewController.swift */; };
 		0FCFD9FF1F82A55A00FF27F1 /* SignuotViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FCFD9FE1F82A55A00FF27F1 /* SignuotViewController.swift */; };
@@ -57,6 +58,9 @@
 		0FB00D021F82C9E800CC7426 /* SF-UI-Text-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-UI-Text-Regular.otf"; sourceTree = "<group>"; };
 		0FB00D031F82C9E800CC7426 /* SF-UI-Text-Semibold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-UI-Text-Semibold.otf"; sourceTree = "<group>"; };
 		0FB00D051F82C9E800CC7426 /* SwiftMaskTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftMaskTextField.swift; sourceTree = "<group>"; };
+		0FB1692B1F87F5E000C199AC /* AlertasTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AlertasTableViewCell.xib; sourceTree = "<group>"; };
+		0FB1692D1F87F6A600C199AC /* AlertasTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertasTableViewCell.swift; sourceTree = "<group>"; };
+		0FB1692F1F87FC9100C199AC /* BarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BarViewController.swift; sourceTree = "<group>"; };
 		0FCFD9D01F82726D00FF27F1 /* ApplicationBase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ApplicationBase.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0FCFD9D31F82726D00FF27F1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0FCFD9D51F82726D00FF27F1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -67,8 +71,6 @@
 		0FCFD9EB1F82766E00FF27F1 /* AgendaTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AgendaTableViewCell.swift; sourceTree = "<group>"; };
 		0FCFD9EF1F82769700FF27F1 /* AgendaTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AgendaTableViewCell.xib; sourceTree = "<group>"; };
 		0FCFD9F21F8278F700FF27F1 /* AgendaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AgendaViewController.swift; sourceTree = "<group>"; };
-		0FCFD9F61F82808700FF27F1 /* AlertaTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertaTableViewCell.swift; sourceTree = "<group>"; };
-		0FCFD9F81F82809400FF27F1 /* AlertaTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AlertaTableViewCell.xib; sourceTree = "<group>"; };
 		0FCFD9FA1F82814A00FF27F1 /* AlertaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertaViewController.swift; sourceTree = "<group>"; };
 		0FCFD9FC1F82823100FF27F1 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		0FCFD9FE1F82A55A00FF27F1 /* SignuotViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignuotViewController.swift; sourceTree = "<group>"; };
@@ -197,6 +199,7 @@
 				0FCFD9FC1F82823100FF27F1 /* LoginViewController.swift */,
 				0FCFD9FE1F82A55A00FF27F1 /* SignuotViewController.swift */,
 				0F5F90F71F83DE2A00D4DF33 /* HomeViewController.swift */,
+				0FB1692F1F87FC9100C199AC /* BarViewController.swift */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -204,8 +207,8 @@
 		0FCFD9F51F82806C00FF27F1 /* Alerta */ = {
 			isa = PBXGroup;
 			children = (
-				0FCFD9F61F82808700FF27F1 /* AlertaTableViewCell.swift */,
-				0FCFD9F81F82809400FF27F1 /* AlertaTableViewCell.xib */,
+				0FB1692B1F87F5E000C199AC /* AlertasTableViewCell.xib */,
+				0FB1692D1F87F6A600C199AC /* AlertasTableViewCell.swift */,
 			);
 			name = Alerta;
 			sourceTree = "<group>";
@@ -334,11 +337,11 @@
 				0FB00D061F82C9E800CC7426 /* Lato-Bold.ttf in Resources */,
 				0FCFD9DB1F82726D00FF27F1 /* Assets.xcassets in Resources */,
 				0FB00D0C1F82C9E800CC7426 /* SF-UI-Text-Bold.otf in Resources */,
-				0FCFD9F91F82809400FF27F1 /* AlertaTableViewCell.xib in Resources */,
 				0FB00D0F1F82C9E800CC7426 /* SF-UI-Text-Semibold.otf in Resources */,
 				0FCFD9D91F82726D00FF27F1 /* Main.storyboard in Resources */,
 				0FB00D081F82C9E800CC7426 /* Roboto-Bold.ttf in Resources */,
 				0FCFD9F01F82769700FF27F1 /* AgendaTableViewCell.xib in Resources */,
+				0FB1692C1F87F5E000C199AC /* AlertasTableViewCell.xib in Resources */,
 				0FB00D0E1F82C9E800CC7426 /* SF-UI-Text-Regular.otf in Resources */,
 				0FB00D091F82C9E800CC7426 /* Roboto-Medium.ttf in Resources */,
 			);
@@ -388,6 +391,7 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-ApplicationBase/Pods-ApplicationBase-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/DLRadioButton/DLRadioButton.framework",
 				"${BUILT_PRODUCTS_DIR}/InputMask/InputMask.framework",
 				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
 				"${BUILT_PRODUCTS_DIR}/NSStringMask/NSStringMask.framework",
@@ -397,6 +401,7 @@
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DLRadioButton.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/InputMask.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NSStringMask.framework",
@@ -416,10 +421,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				0FCFD9FD1F82823100FF27F1 /* LoginViewController.swift in Sources */,
+				0FB1692E1F87F6A600C199AC /* AlertasTableViewCell.swift in Sources */,
 				0FB00D101F82C9E800CC7426 /* SwiftMaskTextField.swift in Sources */,
 				0F5F90F81F83DE2A00D4DF33 /* HomeViewController.swift in Sources */,
 				0FCFDA731F82BDD800FF27F1 /* MyUtilsViewController.swift in Sources */,
 				0FCFDA021F82AEA700FF27F1 /* RequestService.swift in Sources */,
+				0FB169301F87FC9100C199AC /* BarViewController.swift in Sources */,
 				0FCFDA0C1F82B92A00FF27F1 /* Alerta.swift in Sources */,
 				0FCFD9F31F8278F700FF27F1 /* AgendaViewController.swift in Sources */,
 				0FCFD9D61F82726D00FF27F1 /* ViewController.swift in Sources */,
@@ -427,7 +434,6 @@
 				0FCFDA101F82B94200FF27F1 /* Local.swift in Sources */,
 				0FCFDA0E1F82B93200FF27F1 /* User.swift in Sources */,
 				0FCFD9D41F82726D00FF27F1 /* AppDelegate.swift in Sources */,
-				0FCFD9F71F82808700FF27F1 /* AlertaTableViewCell.swift in Sources */,
 				0FCFDA0A1F82B92000FF27F1 /* Agenda.swift in Sources */,
 				0FCFD9FF1F82A55A00FF27F1 /* SignuotViewController.swift in Sources */,
 				0FCFDA121F82B96A00FF27F1 /* Horario.swift in Sources */,

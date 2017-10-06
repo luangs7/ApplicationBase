@@ -1,19 +1,18 @@
 //
-//  AlertaTableViewCell.swift
+//  AlertasTableViewCell.swift
 //  ApplicationBase
 //
-//  Created by Luan Silva on 02/10/17.
+//  Created by Luan Silva on 06/10/17.
 //  Copyright © 2017 Squarebits. All rights reserved.
 //
 
 import UIKit
 
-class AlertaTableViewCell: UITableViewCell {
-
-    @IBOutlet weak var local: UILabel!
+class AlertasTableViewCell: UITableViewCell {
     @IBOutlet weak var title: UILabel!
-    @IBOutlet weak var bar: UIView!
 
+    @IBOutlet weak var bar: UIView!
+    @IBOutlet weak var message: UILabel!
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code

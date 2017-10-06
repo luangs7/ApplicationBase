@@ -81,7 +81,16 @@ class AgendaViewController: UIViewController {
             
             switch item.status {
             case "Pendente":
+                cell.bar.backgroundColor =  UIColor(red:1.00, green:0.71, blue:0.26, alpha:1.0)
+                 cell.status.textColor = UIColor(red:1.00, green:0.71, blue:0.26, alpha:1.0)
+                break
+            case "Cancelado":
                 cell.bar.backgroundColor = UIColor(red:0.81, green:0.24, blue:0.24, alpha:1.0)
+                cell.status.textColor = UIColor(red:0.81, green:0.24, blue:0.24, alpha:1.0)
+                break
+            case "Realizado":
+                cell.bar.backgroundColor = UIColor(red:0.05, green:0.64, blue:0.54, alpha:1.0)
+                cell.status.textColor = UIColor(red:0.05, green:0.64, blue:0.54, alpha:1.0)
                 break
             default:
                 break

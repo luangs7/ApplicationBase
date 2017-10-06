@@ -37,14 +37,15 @@ class AlertaViewController: UIViewController {
     }
     */
     fileprivate func setup(){
+        setupTableView()
+
         for alerta in user.alertas{
             myArray.append(alerta)
         }
-        setupTableView()
     }
     
     fileprivate func setupTableView(){
-        setupNib(forClass: AgendaTableViewCell.self, nibName: "AgendaTableViewCell", reuseIdentifier: "AgendaCell")
+        setupNib(forClass: AlertasTableViewCell.self, nibName: "AlertasTableViewCell", reuseIdentifier: "Cell")
         self.tableView.allowsSelection = false
     }
     
@@ -65,9 +66,15 @@ extension AlertaViewController: UITableViewDelegate, UITableViewDataSource {
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "AgendaCell") as! AgendaTableViewCell
+        let cell = tableView.dequeueReusableCell(withIdentifier: "Cell") as! AlertasTableViewCell
         
         let item = self.myArray[indexPath.row]
+        
+        cell.bar.backgroundColor = UIColor(red:0.55, green:0.55, blue:0.55, alpha:1.0)
+        cell.message.text = item.mensagem
+        cell.title.text = item.data + " " + item.hora
+        
+
         
         //            cell.tipoLabel.text = item.dsDescr15
         //            cell.situacaoLabel.text = item.dsSituaca
